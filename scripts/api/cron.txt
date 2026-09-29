@@ -1,0 +1,186 @@
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 239 >> /var/log/per239.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 239 >> /var/log/vm239.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 197 >> /var/log/per197.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 197 >> /var/log/vm197.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 212 >> /var/log/per212.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 212 >> /var/log/vm212.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 205 >> /var/log/per205.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 205 >> /var/log/vm205.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 114 >> /var/log/per114.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 114 >> /var/log/vm114.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 230 >> /var/log/per230.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 230 >> /var/log/vm230.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 198 >> /var/log/per198.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 198 >> /var/log/vm198.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 131 >> /var/log/per131.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 131 >> /var/log/vm131.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 29 >> /var/log/per29.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 29 >> /var/log/vm29.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 204 >> /var/log/per204.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 204 >> /var/log/vm204.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 155 >> /var/log/per155.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 155 >> /var/log/vm155.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 219 >> /var/log/per219.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 219 >> /var/log/vm219.log 2>&1
+
+*/10 * * * * /usr/bin/python3 /root/scripts/host.py 215 >> /var/log/per215.log 2>&1
+*/17 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 215 >> /var/log/vm215.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 115 >> /var/log/per115.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 115 >> /var/log/vm115.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 128 >> /var/log/per128.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 128 >> /var/log/vm128.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 135 >> /var/log/per135.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 135 >> /var/log/vm135.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 142 >> /var/log/per142.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 142 >> /var/log/vm142.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 152 >> /var/log/per152.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 152 >> /var/log/vm152.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 154 >> /var/log/per154.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 154 >> /var/log/vm154.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 191 >> /var/log/per191.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 191 >> /var/log/vm191.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 174 >> /var/log/per174.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 174 >> /var/log/vm174.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 138 >> /var/log/per138.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 138 >> /var/log/vm138.log 2>&1
+
+*/10 * * * * /usr/bin/python3 /root/scripts/host.py 165 >> /var/log/per165.log 2>&1
+*/17 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 165 >> /var/log/vm165.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 202 >> /var/log/per202.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 202 >> /var/log/vm202.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 72 >> /var/log/per72.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 72 >> /var/log/vm72.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 248 >> /var/log/per248.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 248 >> /var/log/vm248.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 91 >> /var/log/per91.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 91 >> /var/log/vm91.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 36 >> /var/log/per36.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 36 >> /var/log/vm36.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 24 >> /var/log/per24.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 24 >> /var/log/vm24.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 186 >> /var/log/per186.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 186 >> /var/log/vm186.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 157 >> /var/log/per157.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 157 >> /var/log/vm157.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 147 >> /var/log/per147.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 147 >> /var/log/vm147.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 71 >> /var/log/per71.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 71 >> /var/log/vm71.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 248 >> /var/log/per248.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 248 >> /var/log/vm248.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 90 >> /var/log/per90.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 90 >> /var/log/vm90.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 99 >> /var/log/per99.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 99 >> /var/log/vm99.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 244 >> /var/log/per244.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 244 >> /var/log/vm244.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 134 >> /var/log/per134.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 134 >> /var/log/vm134.log 2>&1
+
+
+#*/5 * * * * /usr/bin/python3 /root/scripts/host.py 234 >> /var/log/per234.log 2>&1
+#1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 234 >> /var/log/vm234.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 113 >> /var/log/per113.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 113 >> /var/log/vm113.log 2>&1
+
+#*/5 * * * * /usr/bin/python3 /root/scripts/host.py 231 >> /var/log/per231.log 2>&1
+#1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 231 >> /var/log/vm231.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 151 >> /var/log/per151.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 151 >> /var/log/vm151.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 112 >> /var/log/per112.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 112 >> /var/log/vm112.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 251 >> /var/log/per251.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 251 >> /var/log/vm251.log 2>&1
+
+#*/5 * * * * /usr/bin/python3 /root/scripts/host.py 80 >> /var/log/per80.log 2>&1
+#1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 80 >> /var/log/vm80.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 121 >> /var/log/per121.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 121 >> /var/log/vm121.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 182 >> /var/log/per182.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 182 >> /var/log/vm182.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 201 >> /var/log/per201.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 201 >> /var/log/vm201.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 119 >> /var/log/per119.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 119 >> /var/log/vm119.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 136 >> /var/log/per136.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 136 >> /var/log/vm136.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 231 >> /var/log/per231.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 231 >> /var/log/vm231.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 234 >> /var/log/per234.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 234 >> /var/log/vm234.log 2>&1
+
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 77 >> /var/log/per77.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 77 >> /var/log/vm77.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 224 >> /var/log/per224.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 224 >> /var/log/vm224.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 237 >> /var/log/per237.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 237 >> /var/log/vm237.log 2>&1
+
+*/5 * * * * /usr/bin/python3 /root/scripts/host.py 28 >> /var/log/per28.log 2>&1
+1-59/7 * * * * sleep 30; /usr/bin/python3 /root/scripts/vm.py 28 >> /var/log/vm28.log 2>&1
+#Automation Pods
+#*/5 * * * * /usr/bin/python3 /root/xapi/xen_231.py  >> /var/log/per231.log 2>&1
+#*/5 * * * * /usr/bin/python3 /root/xapi/xen_234.py  >> /var/log/per234.log 2>&1
+#*/5 * * * * /usr/bin/python3 /root/xapi/xen_77.py  >> /var/log/per77.log 2>&1
+
+

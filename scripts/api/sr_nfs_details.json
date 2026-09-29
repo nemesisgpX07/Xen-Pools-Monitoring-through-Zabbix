@@ -1,0 +1,305 @@
+{
+    "MUM4C-MGMT-POOL_192.168.230.55_198.19.23.219_XENMASTER": {
+        "pool_master_ip": "198.19.23.219",
+        "nfs_storage": []
+    },
+    "HydXen2.ctrl4c.com_192.168.214.150_198.18.252.239_XENMASTER": {
+        "pool_master_ip": "198.18.252.239",
+        "nfs_storage": []
+    },
+    "4C-MUM-XEN_mumctr4c-ctx229_192.168.230.229_198.19.17.128_XENMASTER": {
+        "pool_master_ip": "198.19.17.128",
+        "nfs_storage": []
+    },
+    "4C-MUM-XEN2_mumctr4c-ctx127_192.168.230.127_198.19.17.135_XENMASTER": {
+        "pool_master_ip": "198.19.17.135",
+        "nfs_storage": []
+    },
+    "4C-MUM-XEN4_mumctr4c-ctx110_192.168.230.110_198.19.17.142_XENMASTER": {
+        "pool_master_ip": "198.19.17.142",
+        "nfs_storage": []
+    },
+    "4C-MUM_XEN3_POD1-POD2_mumctr4c-ctx117_192.168.230.117_198.19.17.152_XENMASTER": {
+        "pool_master_ip": "198.19.17.152",
+        "nfs_storage": []
+    },
+    "clmu4c-xenprod_clmu4c-ctx169_192.168.230.169_198.19.17.154_XENMASTER": {
+        "pool_master_ip": "198.19.17.154",
+        "nfs_storage": []
+    },
+    "clmuvn-prod_clmuvn-ctx106_192.168.217.35_198.19.254.191_XENMASTER": {
+        "pool_master_ip": "198.19.17.192",
+        "nfs_storage": [
+            {
+                "name": "Virtual Xe Recovery File System",
+                "uuid": "6abef097-888d-497e-aa9f-5db182e6f28d",
+                "type": "nfs",
+                "description": "Instant Recovery NFS SR [192.168.217.188:/mnt/vxefs]",
+                "physical_size_bytes": 70368744177664,
+                "physical_used_bytes": 0,
+                "physical_free_bytes": 70368744177664,
+                "usage_percent": 0.0,
+                "content_type": ""
+            }
+        ]
+    },
+    "Atlas-hydctrat-ctx-pool2_p-hydctrat-ctx-37_172.27.255.37_198.18.252.174_XENMASTER": {
+        "pool_master_ip": "198.18.252.174",
+        "nfs_storage": []
+    },
+    "HYDCYGCTX-POOL-hydcygctx131_172.27.255.131_198.18.252.165_XENMASTER": {
+        "pool_master_ip": "198.18.93.68",
+        "nfs_storage": []
+    },
+    "MUM-GLXY-Pool_p-mumctrgx-ctx-11_172.16.44.11_198.19.254.138_XENMASTER": {
+        "pool_master_ip": "198.19.254.138",
+        "error": "['HOST_IS_SLAVE', '172.16.44.12']"
+    },
+    "MUMAGSCTXPool1_mumagsctx33_172.16.45.33_198.19.7.202_XENMASTER": {
+        "pool_master_ip": "198.19.7.202",
+        "nfs_storage": []
+    },
+    "HydXen.ctrl4c.com_clhy4c-ctx72_192.168.214.72_198.18.130.72_XENMASTER": {
+        "pool_master_ip": "198.18.130.72",
+        "nfs_storage": []
+    },
+    "mumctrp-xen-pool2_p-mumctrp-ctx138_192.168.101.138_198.19.253.91_XENMASTER": {
+        "pool_master_ip": "198.19.253.91",
+        "nfs_storage": []
+    },
+    "MercuryXen.ctrl4c.com_clmercury-ctx113_192.168.99.113_198.18.252.36_XENMASTER": {
+        "pool_master_ip": "198.18.252.36",
+        "nfs_storage": []
+    },
+    "CygHydXen8-Pool2_cyghydxen186_172.27.255.186_198.18.47.186_XENMASTER": {
+        "pool_master_ip": "198.18.47.186",
+        "nfs_storage": []
+    },
+    "MUMAGSCTXPOOL2_mumags-ctx187_172.16.45.187_198.19.42.157_XENMASTER": {
+        "pool_master_ip": "198.19.42.157",
+        "nfs_storage": []
+    },
+    "4C-MUM-HYBRID_Pool_MUM4CHYBRID-CTX94_192.168.230.94_198.19.17.147_XENMASTER": {
+        "pool_master_ip": "198.19.17.147",
+        "nfs_storage": []
+    },
+    "MUM-TEJAS-XEN_mumtejas-ctx71_172.28.48.71_198.19.55.71_XENMASTER": {
+        "pool_master_ip": "198.19.55.71",
+        "nfs_storage": []
+    },
+    "HydXen3.ctrl4c.com_clhy4c-ctx158_192.168.214.158_198.18.252.248_XENMASTER": {
+        "pool_master_ip": "198.18.252.248",
+        "nfs_storage": []
+    },
+    "MUM-TEJAS-XEN2_mumtejas-ctx77_172.28.48.77_198.19.55.90_XENMASTER": {
+        "pool_master_ip": "198.19.55.90",
+        "nfs_storage": []
+    },
+    "HYDMARS-XEN_192.168.218.30_198.18.252.99_XENMASTER": {
+        "pool_master_ip": "198.18.252.99",
+        "nfs_storage": []
+    },
+    "MERCURY-HYD-XEN_192.168.99.112_198.18.48.244_XENMASTER": {
+        "pool_master_ip": "198.18.48.244",
+        "nfs_storage": []
+    },
+    "4CHYD-XEN8-POOL_hyd4c-ctx28_192.168.214.28_198.18.130.134_XENMASTER": {
+        "pool_master_ip": "198.18.130.134",
+        "nfs_storage": []
+    },
+    "jupiter-xen2_ctx126_192.168.92.126_198.18.44.212_XENMASTER": {
+        "pool_master_ip": "198.18.44.212",
+        "nfs_storage": []
+    },
+    "Dubai XEN 8_DUBAI-xen-ctx24_10.168.227.24_198.19.17.186_XENMASTER": {
+        "pool_master_ip": "198.19.17.186",
+        "nfs_storage": [
+            {
+                "name": "Virtual Xe Recovery File System",
+                "uuid": "6dfc2581-fe6a-4830-912c-a19bffaac103",
+                "type": "nfs",
+                "description": "Instant Recovery NFS SR [192.168.231.72:/mnt/vxefs]",
+                "physical_size_bytes": 70368744177664,
+                "physical_used_bytes": 0,
+                "physical_free_bytes": 70368744177664,
+                "usage_percent": 0.0,
+                "content_type": ""
+            }
+        ]
+    },
+    "VENUS_BHARUWA-XEN8_venusmum-ctx95_192.168.217.95_198.19.47.205_XENMASTER": {
+        "pool_master_ip": "198.19.47.205",
+        "nfs_storage": []
+    },
+    "mumctratm-xen-zbx_mumctratm-xen36_172.16.60.36_198.19.254.234_XENMASTER": {
+        "pool_master_ip": "198.19.254.234",
+        "nfs_storage": []
+    },
+    "mumctratm-xen-prod_mumctratm-xen32_172.16.60.32_198.19.254.231_XENMASTER": {
+        "pool_master_ip": "198.19.254.231",
+        "nfs_storage": []
+    },
+    "HYDTEJAS-XEN2_CTX16_172.28.28.16_198.18.60.155_XENMASTER": {
+        "pool_master_ip": "198.18.60.155",
+        "nfs_storage": []
+    },
+    "PLUTO-MUM-XEN8_pluto-mum-ctx139_192.168.101.139_198.19.46.36_XENMASTER": {
+        "pool_master_ip": "198.19.46.36",
+        "nfs_storage": []
+    },
+    "MARS-MGMT-CTX23_192.168.218.23_198.18.252.114_XENMASTER": {
+        "pool_master_ip": "198.18.252.114",
+        "nfs_storage": []
+    },
+    "MUM-GALAXY-XEN8-CTX155_172.16.44.155_198.19.45.90_XENMASTER": {
+        "pool_master_ip": "198.19.45.90",
+        "nfs_storage": []
+    },
+    "MUAGSCTXMGMT_mumagsctx21_172.16.45.21_198.19.16.230_XENMASTER": {
+        "pool_master_ip": "198.19.16.230",
+        "nfs_storage": []
+    },
+    "Galaxy-MGMT-POOL_CTX110_172.16.44.110_198.19.254.131_XENMASTER": {
+        "pool_master_ip": "198.19.254.131",
+        "nfs_storage": []
+    },
+    "VENUS-MGMT-CTX115_192.168.217.115_198.19.47.204_XENMASTER": {
+        "pool_master_ip": "198.19.47.211",
+        "nfs_storage": [
+            {
+                "name": "Virtual Xe Recovery File System",
+                "uuid": "8a3a3c99-4ad4-4156-8f1f-b216945f81e3",
+                "type": "nfs",
+                "description": "Instant Recovery NFS SR [192.168.217.7:/mnt/vxefs]",
+                "physical_size_bytes": 70368744177664,
+                "physical_used_bytes": 0,
+                "physical_free_bytes": 70368744177664,
+                "usage_percent": 0.0,
+                "content_type": ""
+            },
+            {
+                "name": "Virtual Xe Recovery File System",
+                "uuid": "d43c8d50-a8d9-4437-8e1d-e969b4ea028b",
+                "type": "nfs",
+                "description": "Instant Recovery NFS SR [192.168.217.7:/mnt/vxefs]",
+                "physical_size_bytes": 70368744177664,
+                "physical_used_bytes": 0,
+                "physical_free_bytes": 70368744177664,
+                "usage_percent": 0.0,
+                "content_type": ""
+            }
+        ]
+    },
+    "Pluto-MGMT-Pool_ctx109_192.168.101.109_198.19.46.29_XENMASTER": {
+        "pool_master_ip": "198.19.46.29",
+        "nfs_storage": []
+    },
+    "mumctrp-xen-prod_p-mumctrp-ctx59_198.19.253.62_192.168.101.59_XENMASTER": {
+        "pool_master_ip": "198.19.253.62",
+        "nfs_storage": []
+    },
+    "HYD4C-MGMT-CTX198_192.168.214.198_198.18.252.230_XENMASTER": {
+        "pool_master_ip": "198.18.252.230",
+        "nfs_storage": [
+            {
+                "name": "Virtual Xe Recovery File System",
+                "uuid": "7e2b3842-b18e-4c6e-a5af-e51b64c43bd7",
+                "type": "nfs",
+                "description": "Instant Recovery NFS SR [192.168.214.7:/mnt/vxefs]",
+                "physical_size_bytes": 70368744177664,
+                "physical_used_bytes": 0,
+                "physical_free_bytes": 70368744177664,
+                "usage_percent": 0.0,
+                "content_type": ""
+            }
+        ]
+    },
+    "HYD4C-MGMT-CTX198_192.168.214.198_198.18.252.230_XENMASTER-test": {
+        "pool_master_ip": "198.18.252.230",
+        "nfs_storage": [
+            {
+                "name": "Virtual Xe Recovery File System",
+                "uuid": "7e2b3842-b18e-4c6e-a5af-e51b64c43bd7",
+                "type": "nfs",
+                "description": "Instant Recovery NFS SR [192.168.214.7:/mnt/vxefs]",
+                "physical_size_bytes": 70368744177664,
+                "physical_used_bytes": 0,
+                "physical_free_bytes": 70368744177664,
+                "usage_percent": 0.0,
+                "content_type": ""
+            }
+        ]
+    },
+    "HYDTEJAS-XEN_172.28.28.15_198.18.60.151_XENMASTER": {
+        "pool_master_ip": "198.18.60.151",
+        "nfs_storage": []
+    },
+    "Atlas-hydctrat-ctx-pool1_p-hydctrat-ctx-17_172.27.255.17_198.18.2.251_XENMASTER": {
+        "pool_master_ip": "198.18.2.251",
+        "nfs_storage": []
+    },
+    "Jupiter-xen-ctx102_192.168.92.102_198.18.44.215_XENMASTER": {
+        "pool_master_ip": "198.18.44.215",
+        "nfs_storage": []
+    },
+    "MUM-INFINIA-XEN_198.19.56.197_172.16.142.25_XENMASTER": {
+        "pool_master_ip": "198.19.56.197",
+        "nfs_storage": []
+    },
+    "VENUS_BHARUWA-XEN8-POOL2_198.19.254.182_192.168.217.28_XENMASTER": {
+        "pool_master_ip": "198.19.254.182",
+        "nfs_storage": []
+    },
+    "HYDATLMGMT.ctrl4c.com_198.18.7.19_172.27.255.136_XENMASTER": {
+        "pool_master_ip": "198.18.7.19",
+        "nfs_storage": [
+            {
+                "name": "NFSLUN1",
+                "uuid": "2c73a3e2-51c2-eee4-8c41-ea04bbaa7336",
+                "type": "nfs",
+                "description": "NFS SR [172.27.255.64:/var/lib/xennfs]",
+                "physical_size_bytes": 2112615874560,
+                "physical_used_bytes": 14823194624,
+                "physical_free_bytes": 2097792679936,
+                "usage_percent": 0.7,
+                "content_type": ""
+            }
+        ]
+    },
+    "MERCURY-MGMT-POOL_198.18.252.42_192.168.99.201_XENMASTER": {
+        "pool_master_ip": "198.18.252.42",
+        "nfs_storage": []
+    },
+    "4CHYD-XEN8-POOL_192.168.214.27_198.18.130.109_XENMASTER": {
+        "pool_master_ip": "198.18.130.109",
+        "error": "['HOST_IS_SLAVE', '192.168.214.28']"
+    },
+    "HYD4C-CSINFO-CTX195_198.18.130.121_192.168.214.195_XENMASTER": {
+        "pool_master_ip": "198.18.130.121",
+        "nfs_storage": []
+    },
+    "hydctratm-xen-prod_172.17.60.11_198.18.49.80_XENMASTER": {
+        "pool_master_ip": "198.18.49.80",
+        "error": "['HOST_IS_SLAVE', '172.17.60.14']"
+    },
+    "csinfo-mgmtctx-100_172.23.33.100_198.19.254.119_XENMASTER": {
+        "pool_master_ip": "198.19.254.119",
+        "nfs_storage": []
+    },
+    "hydctratm-xen-prod_172.17.60.11_198.18.49.77_XENMASTER": {
+        "pool_master_ip": "198.18.49.77",
+        "nfs_storage": []
+    },
+    "MUM-Automation-Pool2_172.16.60.13_198.19.254.224__XENMASTER": {
+        "pool_master_ip": "198.19.254.224",
+        "nfs_storage": []
+    },
+    "MUM-Automation-MGMT__172.16.60.22_198.19.254.237__XENMASTER": {
+        "pool_master_ip": "198.19.254.237",
+        "nfs_storage": []
+    },
+    "MumCtrPrudence-Cluster1_198.19.20.113_172.16.50.28_XENMASTER": {
+        "pool_master_ip": "198.19.20.113",
+        "nfs_storage": []
+    }
+}
