@@ -60,3 +60,127 @@ After both succeed, add the batch runners to the root user's crontab (adjust the
 ```
 
 The shell runners process IDs in parallel (up to `MAX_PARALLEL`), prevent overlapping runs with lock files, enforce per-poll timeouts, and write per-ID output to `/var/log/per<ID>.log` or `/var/log/vm<ID>.log`. Batch status goes to `/var/log/host_batch.log` and `/var/log/vm_batch.log`.
+
+
+
+# Xen Pools Monitoring Through Zabbix
+
+Automated monitoring solution for **XenServer/XCP-ng pools and virtual machines using Zabbix and Python**.
+
+## Overview
+
+This project provides scripts for monitoring Xen virtualization infrastructure through Zabbix.
+
+It can be used to collect and monitor information from Xen pools, hosts, and virtual machines and expose the required metrics to Zabbix.
+
+## Features
+
+* Xen Pool monitoring
+* Xen host monitoring
+* Virtual machine monitoring
+* VM discovery
+* Host discovery
+* Custom Zabbix metrics
+* Python-based monitoring scripts
+* Automated data collection
+* Scheduled monitoring using Linux cron
+* Integration with Zabbix
+
+## Technologies
+
+* Python
+* Zabbix
+* XenServer / Xen
+* XCP-ng
+* Linux
+* XenAPI
+* Bash
+* Cron
+
+## Repository Structure
+
+```text
+.
+├── host.py
+├── vm.py
+├── pass_config.py
+├── cron_host.sh
+├── cron_vm.sh
+```
+
+## Requirements
+
+Before deploying the monitoring scripts, ensure that:
+
+* Zabbix Server/Proxy is available
+* Python is installed
+* XenAPI/Python Xen libraries are installed
+* Network connectivity to the Xen infrastructure is available
+* Required Zabbix configuration is completed
+* Appropriate permissions are configured
+
+## Monitoring Architecture
+
+```text
+Xen Pool
+   │
+   ├── Xen Host
+   │
+   ├── Xen Host
+   │
+   └── Virtual Machines
+           │
+           ▼
+     Python Scripts
+           │
+           ▼
+     Zabbix Proxy
+           │
+           ▼
+      Zabbix Server
+           │
+           ▼
+       Dashboard
+```
+
+## Scripts
+
+### `host.py`
+
+Collects Xen host/pool-related monitoring information.
+
+### `vm.py`
+
+Collects virtual-machine-related monitoring information.
+
+### `pass_config.py`
+
+Contains configuration used by the monitoring scripts.
+
+> Do not store production passwords, API credentials, tokens, or other secrets directly in the repository.
+
+### `cron_host.sh`
+
+Used to schedule host-related monitoring operations.
+
+### `cron_vm.sh`
+
+Used to schedule VM-related monitoring operations.
+
+## Deployment
+
+Clone the repository:
+
+```bash
+git clone https://github.com/nemesisgpX07/Xen-Pools-Monitoring-through-Zabbix.git
+```
+
+Enter the directory:
+
+```bash
+cd Xen-Pools-Monitoring-through-Zabbix
+```
+
+Configure the required Xen and Zabbix parameters and then configure the required cron jobs.
+
+
